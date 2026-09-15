@@ -20,6 +20,16 @@ ENABLE_SCREEN_CAPTURE = False  # Set to True if you want screenshot capability
 AVATAR_TYPE = "ascii"  # Options: "ascii", "image"
 AVATAR_PATH = "assets/nova_avatar.png"
 
+# Voice Settings (Shion from "That Time I Got Reincarnated as a Slime")
+ENABLE_VOICE = True  # Enable/disable voice synthesis
+VOICE_PROVIDER = "google"  # Options: "google", "elevenlabs", "pyttsx3"
+VOICE_SPEED = 1.0  # 0.5 to 2.0 (0.5 = slow, 1.0 = normal, 2.0 = fast)
+VOICE_PITCH = 1.2  # 0.5 to 2.0 (higher = more feminine/Shion-like)
+
+# ElevenLabs Settings (for premium Shion voice)
+ELEVENLABS_API_KEY = "your-elevenlabs-key-here"
+ELEVENLABS_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"  # Shion-like voice ID
+
 # Learning Settings
 ENABLE_LEARNING = True
 MAX_MEMORIES = 1000
